@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 290px;
+    align-items: center;
+
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.column {
+    width: 33%;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+.icon {
+    border: 1px solid #1275b9;
+    border-radius: 50%;
+    background-color: #1275b9;
+
+    width: 65px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.first-icon {
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.icon:hover {
+    background-color: #a8aa26;
+    color: #2a69a6;
+}
+
+
+
+
+.title {
+    /* Style for "Easy Custo" */
+    width: 118;
+    height: auto;
+    color: #000000;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "Easy Custo" */
+    letter-spacing: 0.35px;
+    margin: 50px 0;
+
+
+}
+
+.text {
+    /* Style for "Etiam sagi" */
+    width: 220px;
+    height: auto;
+    color: #9d9d9d;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    /* Text style for "E, tiam sa" */
+    letter-spacing: 0.35px;
+
+
+
+}
